@@ -2,5 +2,4 @@
 AZ Environment variables on Python
 
 
-docker run -d --name echoip --restart unless-stopped -p 8080:8080 xoste49/echoip:latest
-docker run -p 5000:5000 --build .
+`docker run -d --name azenv-py --restart unless-stopped -p 5000:5000 xoste49/azenv-py:latest`
